@@ -21,7 +21,7 @@ def main():
     # process
     try:
         guess_as_num = int(guess)
-        if guess == randomanswer:
+        if guess_as_num == randomanswer:
             # output
             print("You are correct!")
         else:
